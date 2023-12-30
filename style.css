@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+.navbar {
+    width: 100%;
+    height: 10%;
+    border-bottom: 1ps solid #fff;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.925);
+
+}
+
+.navbar h2 {
+    font-family: 'Agency FB';
+    font-size: 25px;
+}
+
+.navbar i {
+    font-size: 20px;
+}
+
+.first,
+.second,
+.third,
+.fourth {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.925);
+}
+
+.first-data,
+.second-data {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 25px;
+}
+
+.first-data h1 {
+    font-family: "Aeonik";
+    font-size: 250px;
+    font-weight: 800;
+}
+
+.first-data img,
+.second-data img {
+    width: 700px;
+    height: 250px;
+    border-radius: 500px;
+}
+
+.second-data h1 {
+    font-family: "Aeonik";
+    font-size: 250px;
+    font-weight: 800;
+}
+
+.first-data img:hover {
+    filter: opacity(0.8);
+}
+
+.second-data img:hover {
+    filter: opacity(0.8);
+}
+/*************second page*************/
+.second {
+    /* background-color: red; */
+    padding: 20px;
+    height: 140%;
+}
+
+.second h2,
+.third h2,
+.fourth h2 {
+    font-size: 80px;
+    font-weight: 600;
+    font-family: "Aeonik";
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.sec-data {
+    margin-top: 3%;
+    padding: 20px;
+}
+
+.second p {
+    font-size: 18px;
+    font-family: "Aeonik";
+    font-weight: 400;
+}
+
+.card{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+
+.cards{
+  width: 30%;
+  height: 450px;
+}
+
+.card-img{
+  /* width: 370px; */
+  height: 200px;
+  align-self: center;
+}
+
+.card-img img{
+    height: 100%;
+}
+
+.cards-data h3,
+.serviceOne h3{
+    font-size: 25px;
+    font-family: "Aeonik";
+    font-weight: 500;
+    margin: 10px;
+}
+
+.cards-data p,
+.serviceOne p{
+    font-family: "Aeonik";
+    font-size: 18px;
+    margin: 10px;
+}
+
+.third,.fourth{
+    padding: 20px;
+}
+
+.third-data,.fourth-data{
+    padding: 20px;
+}
+
+.services-data{
+    width: 100%;
+    height: 100%;
+}
+
+.serviceOne{
+    width: 100%;
+    height: 90px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 10px;
+}
+
+.fourth{
+  text-align: center;
+}
+
+.contact-page input{
+  width: 400px;
+  height: 40px;
+  padding: 10px;
+  outline: none;
+  margin: 5px 0;
+  border-radius: 10px;
+  background-color: #212121;
+  border: none;
+}
+
+.contact-page textarea{
+  width: 400px;
+  height: 200px;
+  padding: 10px;
+  margin: 1% 0;
+  border: none;
+  background-color: #212121;
+
+}
+
+
+.contact-page button {
+  padding: 15px 25px;
+  border: unset;
+  border-radius: 15px;
+  color: #212121;
+  z-index: 1;
+  background: #e8e8e8;
+  position: relative;
+  font-weight: 1000;
+  font-size: 17px;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  transition: all 250ms;
+  overflow: hidden;
+ }
+ 
+ .contact-page button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  border-radius: 15px;
+  background-color: #212121;
+  z-index: -1;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  transition: all 250ms
+ }
+ 
+ .contact-page button:hover {
+  color: #e8e8e8;
+  cursor: pointer;
+ }
+ 
+ .contact-page button:hover::before {
+  width: 100%;
+ }
