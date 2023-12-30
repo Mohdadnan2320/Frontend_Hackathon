@@ -209,16 +209,17 @@ body {
   border-radius: 10px;
   background-color: #212121;
   border: none;
+  color: #fff;
 }
 
 .contact-page textarea{
+    color: #fff;
   width: 400px;
   height: 200px;
   padding: 10px;
   margin: 1% 0;
   border: none;
   background-color: #212121;
-
 }
 
 
